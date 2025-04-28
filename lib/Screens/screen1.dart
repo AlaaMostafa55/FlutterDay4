@@ -93,16 +93,16 @@ class _Screen1State extends State<Screen1> {
               },
               decoration: InputDecoration(
                 filled: true,
-                fillColor: const Color(0xFFD9D9D9), // لون الخلفية الرمادي
-                labelText: '', // إزالة النص المكتوب داخل الحقل
+                fillColor: const Color(0xFFD9D9D9), 
+                labelText: '',
                 labelStyle: const TextStyle(color: Colors.black54),
                 prefixIcon: Icon(
                   Icons.search,
                   color: Colors.black54,
-                ), // تغيير الأيقونة إلى البحث
+                ),
                 border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(30), // حواف مستديرة
-                  borderSide: BorderSide.none, // بدون حدود
+                  borderRadius: BorderRadius.circular(30), 
+                  borderSide: BorderSide.none, 
                 ),
               ),
             ),
